@@ -15,6 +15,7 @@
 		2960D27C1F302006009BAB8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2960D27A1F302006009BAB8C /* LaunchScreen.storyboard */; };
 		2960D2871F302006009BAB8C /* ZZHToolForLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2960D2861F302006009BAB8C /* ZZHToolForLayoutTests.m */; };
 		2960D2921F302006009BAB8C /* ZZHToolForLayoutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2960D2911F302006009BAB8C /* ZZHToolForLayoutUITests.m */; };
+		2960D2A11F30201B009BAB8C /* ZZH_Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 2960D2A01F30201B009BAB8C /* ZZH_Tools.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		2960D28D1F302006009BAB8C /* ZZHToolForLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZHToolForLayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2960D2911F302006009BAB8C /* ZZHToolForLayoutUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZHToolForLayoutUITests.m; sourceTree = "<group>"; };
 		2960D2931F302006009BAB8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2960D29F1F30201B009BAB8C /* ZZH_Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZH_Tools.h; sourceTree = "<group>"; };
+		2960D2A01F30201B009BAB8C /* ZZH_Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZH_Tools.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				2960D2701F302006009BAB8C /* AppDelegate.m */,
 				2960D2721F302006009BAB8C /* ViewController.h */,
 				2960D2731F302006009BAB8C /* ViewController.m */,
+				2960D29F1F30201B009BAB8C /* ZZH_Tools.h */,
+				2960D2A01F30201B009BAB8C /* ZZH_Tools.m */,
 				2960D2751F302006009BAB8C /* Main.storyboard */,
 				2960D2781F302006009BAB8C /* Assets.xcassets */,
 				2960D27A1F302006009BAB8C /* LaunchScreen.storyboard */,
@@ -278,6 +283,7 @@
 			files = (
 				2960D2741F302006009BAB8C /* ViewController.m in Sources */,
 				2960D2711F302006009BAB8C /* AppDelegate.m in Sources */,
+				2960D2A11F30201B009BAB8C /* ZZH_Tools.m in Sources */,
 				2960D26E1F302006009BAB8C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
